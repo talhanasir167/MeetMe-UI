@@ -5,6 +5,243 @@
   z-index: 2;
 }
 
+/* Main Bannaer Area */
+
+.banner-color-background {
+  position: relative;
+  z-index: 1;
+  background-image: -moz-linear-gradient(0deg,#766dff 0%,#70bec7 100%);
+  background-image: -webkit-linear-gradient(0deg,#332e77 0%,#58c2ce 100%);
+  background-image: -ms-linear-gradient(0deg,#827af5 0%,#5ee1f0 100%);
+  margin-bottom: 200px;
+  top:-70px;
+}
+
+.mobile-inner-banner{
+  padding: 5%;
+  min-height: 3600;
+  border-radius: 15px;
+  vertical-align: middle;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 20px 80px 0 rgb(153 153 153 / 30%);
+}
+
+.inner-banner{
+  min-height: 3600;
+  border-radius: 15px;
+  vertical-align: middle;
+  position: relative;
+  bottom: -150px;
+  width: 80%;
+  background: #fff;
+  padding: 40px;
+  left: 10%;
+  right: 10%;
+  box-shadow: 0 20px 80px 0 rgb(153 153 153 / 30%);
+  margin-bottom: 200px;
+}
+
+.mobile-image-media{
+  align-items: center;
+  padding: 3%;
+}
+
+.image-media{
+  align-items: center;
+  vertical-align: middle;
+}
+
+.content-media{
+  padding: 5%;
+}
+
+.mobile-content-media{
+  padding-right: 8%;
+  padding-top: 7%;
+}
+
+.banner-list{
+  list-style: none;
+}
+
+.banner-social-list{
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+
+.banner-icon-bg-color{
+  background-color: #dedfdf;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 45px;
+  margin: 5px;
+  display: inline-block;
+
+}
+
+.banner-content-icon-color{
+  color: rgb(255, 255, 255);
+}
+
+
+/* About Section */
+
+.about-item {
+  border: 1px solid #eee;
+  padding: 3% 3% 3% 3%;
+  border-radius: 5px;
+}
+
+.about-icon {
+
+  color: linear-gradient(to right,#766dff 0%,#86e7ff 70%);
+  color: rgb(72, 72, 207);
+}
+
+.about-padding{
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+}
+
+
+.icon-color{
+  color: black;
+}
+
+.progress-bar-radius{
+  border-radius: 20px;
+}
+
+.progress-bar{
+  padding: 10px;
+}
+
+.progress-bar-padding{
+  padding-top: 5%;
+}
+
+
+/* offereing Area */
+
+
+.offereing-area {
+  background: #f9f9ff;
+}
+
+.offering-card-margin{
+ padding-left: 60px;
+ padding-right: 60px;
+}
+
+.offereing-title {
+  text-align: center;
+  max-width: 670px;
+  margin: 0 auto 75px;
+}
+
+.offering-item {
+  padding: 50px 35px;
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.offereing-icons {
+  opacity: 0.50;
+}
+
+.main-title {
+  text-align: center;
+  max-width: 670px;
+  margin: 0 auto 75px;
+}
+
+.p-120 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Gallery Area */
+
+
+.gallery-padding{
+  padding: 10%;
+}
+
+.gallery-image-padding{
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.gallery-text-padding{
+  padding-top: 30px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #4f70dd 0%, #2697e2  51%, #87b5ee )}
+.btn-grad {
+   padding: 10px 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: white;
+   border-radius: 5px;
+ }
+
+
+ /* Testtimonial Area */
+
+
+.testimonial-padding{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-card-padding{
+ margin-left: 20px;
+ margin-right: 20px
+}
+
+.border-radius{
+  border-radius: 10px;
+}
+
+.testimonial-area{
+  background-color: #f9f9ff;
+}
+
+.icon-color{
+  color: rgb(172, 172, 2);
+}
+
+.testimonial-align-center{
+  align-items: center;
+}
+
+.testimonial-left-right-padding{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.testimonial-flex{
+  display: flex;
+}
+
 /* Footer CSS */
 
 .footer-flex{
@@ -71,3 +308,118 @@ flex-basis: 40%;
 }
 
 
+
+/* Madia Queries */
+
+@media(min-width : 858px){
+.footer-flex{
+  display: flex;
+  justify-content: center;
+}
+}
+
+@media screen and (min-width: 576px) {
+.mobile-home-banner-area{
+  display: none;
+}
+
+.gallery-container{
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+.mobile-nav-content-color{
+  color: white;
+}
+}
+
+@media screen and (max-width: 576px) {
+.main-header{
+  background-color: rgb(19, 17, 17);
+}
+
+#meetme{
+  color: white;
+}
+
+.menubutton{
+  background-color: white;
+}
+
+.mobile-nav-content-color{
+  color: white;
+}
+
+.home-banner-area{
+  display: none;
+}
+
+.third-testimonial{
+  display: none;
+}
+
+.second-testimonial{
+  display: none;
+}
+
+.content-media{
+
+  padding-right: 5%;
+  padding-top: 7%;
+
+}
+
+
+
+/* Footer Area */
+
+
+.footer-center{
+  flex: auto;
+}
+
+.footer-right{
+  flex :auto
+}
+
+.footer-left{
+  flex :auto
+}
+}
+
+@media screen and (max-width: 410px) {
+  .format-banner-content{
+    overflow: hidden;
+  }
+
+  .offering-card-margin{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+.progressd-bar{
+  padding-top: 25px;
+}
+
+.about-card{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  .third-testimonial{
+    display: none;
+  }
+
+  .second-testimonial{
+    display: none;
+  }
+
+}
